@@ -1,4 +1,7 @@
+from colorama import Fore, Style
+
 def get_user_input():
-    return input("\033[36mNic>\033[0m ")
+    return input(f"{Fore.CYAN}Nic>{Style.RESET_ALL} ")
+
 def respond(message: str):
-    print(f"033[32mVero>\033[0m {message}")
+    print(f"{Fore.MAGENTA}Ignia>{Style.RESET_ALL} {message}")

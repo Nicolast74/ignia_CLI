@@ -11,8 +11,9 @@ TONE_CASUAL = [
     "Lagi ngoding? Jangan lupa minum air ya."
 ]
 
-def generate_response(user_meessage: str) -> str:
-    if "love" in user_meessage.lower() or "cinta" in user_meessage.lower():
+def generate_response(user_message: str) -> str:
+    msg = user_message.lower()
+    if any(word in msg for word in ["love", "sayang", "rindu", "kiss"]):
         return random.choice(TONE_FLIRTY)
     else:
         return random.choice(TONE_CASUAL)
