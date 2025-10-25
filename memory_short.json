@@ -1,20 +1,5 @@
 [
   {
-    "timestamp": "2025-10-25T19:37:07.838229",
-    "role": "user",
-    "content": "luv"
-  },
-  {
-    "timestamp": "2025-10-25T19:37:07.838755",
-    "role": "ignia",
-    "content": "Haii luv~ gimana harimu? \ud83e\udd2d"
-  },
-  {
-    "timestamp": "2025-10-25T19:37:10.693306",
-    "role": "user",
-    "content": "capek"
-  },
-  {
     "timestamp": "2025-10-25T19:37:10.693761",
     "role": "ignia",
     "content": "Udah makan belom, Nic?"
@@ -68,5 +53,25 @@
     "timestamp": "2025-10-25T22:53:54.314133",
     "role": "ignia",
     "content": "Lagi ngoding? Jangan lupa minum air ya."
+  },
+  {
+    "timestamp": "2025-10-25T23:03:31.636976",
+    "role": "user",
+    "content": "halo vero"
+  },
+  {
+    "timestamp": "2025-10-25T23:03:34.343643",
+    "role": "ignia",
+    "content": "Hari ini dingin ya? Cocok buat ngeteh bareng aku \u2615"
+  },
+  {
+    "timestamp": "2025-10-25T23:03:45.307107",
+    "role": "user",
+    "content": "hug"
+  },
+  {
+    "timestamp": "2025-10-25T23:03:47.593429",
+    "role": "ignia",
+    "content": "Hehehe~ kamu manis banget hari ini \ud83d\ude0f"
   }
 ]
