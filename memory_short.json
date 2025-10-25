@@ -1,72 +1,72 @@
 [
   {
-    "timestamp": "2025-10-25T09:52:31.213947",
+    "timestamp": "2025-10-25T19:37:07.838229",
     "role": "user",
-    "content": "halo sayang"
+    "content": "luv"
   },
   {
-    "timestamp": "2025-10-25T09:52:31.214478",
-    "role": "ignia",
-    "content": "Udah makan belom, Nic?"
-  },
-  {
-    "timestamp": "2025-10-25T09:52:35.242265",
-    "role": "user",
-    "content": "udah sarapan"
-  },
-  {
-    "timestamp": "2025-10-25T09:52:35.242550",
-    "role": "ignia",
-    "content": "Udah makan belom, Nic?"
-  },
-  {
-    "timestamp": "2025-10-25T11:25:50.903958",
-    "role": "user",
-    "content": "halo vero"
-  },
-  {
-    "timestamp": "2025-10-25T11:27:00.386392",
-    "role": "user",
-    "content": "halo"
-  },
-  {
-    "timestamp": "2025-10-25T11:27:00.386919",
+    "timestamp": "2025-10-25T19:37:07.838755",
     "role": "ignia",
     "content": "Haii luv~ gimana harimu? \ud83e\udd2d"
   },
   {
-    "timestamp": "2025-10-25T11:27:30.815511",
-    "role": "user",
-    "content": "im tired"
-  },
-  {
-    "timestamp": "2025-10-25T11:44:10.674911",
-    "role": "user",
-    "content": "im tired"
-  },
-  {
-    "timestamp": "2025-10-25T11:44:10.675610",
-    "role": "ignia",
-    "content": "Hmm, kamu keliatan capek deh. sini aku temenin \u2615"
-  },
-  {
-    "timestamp": "2025-10-25T11:47:27.229994",
+    "timestamp": "2025-10-25T19:37:10.693306",
     "role": "user",
     "content": "capek"
   },
   {
-    "timestamp": "2025-10-25T11:47:27.230694",
+    "timestamp": "2025-10-25T19:37:10.693761",
     "role": "ignia",
     "content": "Udah makan belom, Nic?"
   },
   {
-    "timestamp": "2025-10-25T11:47:32.775705",
+    "timestamp": "2025-10-25T19:37:13.543410",
     "role": "user",
-    "content": "aku capek nih"
+    "content": "capek"
   },
   {
-    "timestamp": "2025-10-25T11:47:32.776310",
+    "timestamp": "2025-10-25T19:37:13.543961",
     "role": "ignia",
     "content": "Hmm, kamu keliatan capek deh. sini aku temenin \u2615"
+  },
+  {
+    "timestamp": "2025-10-25T22:39:32.751744",
+    "role": "user",
+    "content": "vero"
+  },
+  {
+    "timestamp": "2025-10-25T22:39:33.790008",
+    "role": "ignia",
+    "content": "Lagi ngoding? Jangan lupa minum air ya."
+  },
+  {
+    "timestamp": "2025-10-25T22:39:39.102743",
+    "role": "user",
+    "content": "iya luv"
+  },
+  {
+    "timestamp": "2025-10-25T22:39:40.565306",
+    "role": "ignia",
+    "content": "Lagi ngoding? Jangan lupa minum air ya."
+  },
+  {
+    "timestamp": "2025-10-25T22:52:59.526911",
+    "role": "user",
+    "content": "vero"
+  },
+  {
+    "timestamp": "2025-10-25T22:53:01.019192",
+    "role": "ignia",
+    "content": "Hari ini dingin ya? Cocok buat ngeteh bareng aku \u2615"
+  },
+  {
+    "timestamp": "2025-10-25T22:53:53.018162",
+    "role": "user",
+    "content": "halo luv"
+  },
+  {
+    "timestamp": "2025-10-25T22:53:54.314133",
+    "role": "ignia",
+    "content": "Lagi ngoding? Jangan lupa minum air ya."
   }
 ]

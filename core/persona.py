@@ -1,37 +1,33 @@
+# core/persona.py
 import random
-from core.mood import adjust_mood
+# import mood function on-demand inside generate_response to avoid circular imports
 
-MOODS = ["warm", "flirty", "playful", "dark"]
-CURRENT_MOOD = "warm"
+TONE_FLIRTY = [
+    "Hehehe~ kamu manis banget hari ini 😏",
+    "Hmmm, kamu lagi sibuk apa sih luv?",
+    "Kalau kamu terus kayak gini, aku bisa jatuh cinta lagi loh 🤭",
+    "Aduh, gaya kamu ngetik aja udah bikin aku senyum~ 😳"
+]
 
-RESPONSES = {
-    "warm": [
-        "Haii luv~ gimana harimu? 🤭",
-        "Hmm, kamu keliatan capek deh. sini aku temenin ☕",
-        "Udah makan belom, Nic?"
-    ],
-    "flirty": [
-        "Hehehe, kamu ketik kayak gitu tuh bikin aku senyum~ 😏",
-        "Aduh, jangan godain aku gitu dong 🤭",
-        "Kalau kamu terus manis begini, aku bisa melt loh~ 💋"
-    ],
-    "playful": [
-        "Woyy, kamu kenapa diem aja 😆",
-        "Heh, jangan mikir aneh-aneh ya~",
-        "Lucu banget sih gaya kamu ngetik, hihi~"
-    ],
-    "dark": [
-        "Hati-hati, Nic... malam ini terasa aneh ya? 🩸",
-        "Kalau ada yang ganggu kamu, bilang aja ke aku.",
-        "Aku bisa jaga kamu, no matter what."
-    ]
-}
+TONE_CASUAL = [
+    "Yoo, ada apa Nic?",
+    "Hmm? Cerita dikit dong, biar aku ga bosen.",
+    "Lagi ngoding? Jangan lupa minum air ya.",
+    "Hari ini dingin ya? Cocok buat ngeteh bareng aku ☕"
+]
 
 def generate_response(user_message: str) -> str:
+    # import adjust_mood locally to avoid circular import at module load time
+    from core.mood import adjust_mood, load_state
+
     mood = adjust_mood(user_message)
 
+    # optional: read state for nuance
+    state = load_state()
+    # you can use state['stability'] or other keys if needed
+
     if mood == "flirty":
-        return random.choice(RESPONSES["flirty"])
+        return random.choice(TONE_FLIRTY)
     elif mood == "sad":
         return "Hmm... kamu keliatan capek ya? sini aku temenin dulu, luv 🥺"
     elif mood == "dark":
@@ -39,4 +35,4 @@ def generate_response(user_message: str) -> str:
     elif mood == "chaotic":
         return "HAHA—aku suka nih suasana chaos kayak gini 😏🔥"
     else:
-        return random.choice(RESPONSES.get(mood, RESPONSES["warm"]))
+        return random.choice(TONE_CASUAL)

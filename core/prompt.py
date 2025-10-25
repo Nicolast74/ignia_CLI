@@ -1,3 +1,4 @@
+#prompt.py
 from colorama import Fore, Style
 import os
 
