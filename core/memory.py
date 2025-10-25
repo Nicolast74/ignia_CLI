@@ -27,7 +27,7 @@ def save_message(role: str, content: str):
     })
 
     if len(data) > 15:
-        data = data[+15:]
+        data = data[-15:]
     
     with open(SHORT_TERM_MEMORY_FILE, "w") as f:
         json.dump(data, f, indent=2)

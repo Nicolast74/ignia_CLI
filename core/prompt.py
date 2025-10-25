@@ -6,7 +6,7 @@ def clear_screen():
 
 def show_banner():
     print(f"{Fore.MAGENTA}╔══════════════════════════════╗")
-    print(f"{Fore.MAGENTA}║{Fore.CYAN}      Ignia CLI v0.1           {Fore.MAGENTA}║")
+    print(f"{Fore.MAGENTA}║{Fore.CYAN}      Ignia CLI v0.1          {Fore.MAGENTA}║")
     print(f"{Fore.MAGENTA}╚══════════════════════════════╝{Style.RESET_ALL}\n")
 
 def get_user_input():

@@ -1,4 +1,5 @@
 import random
+from core.mood import adjust_mood
 
 MOODS = ["warm", "flirty", "playful", "dark"]
 CURRENT_MOOD = "warm"
@@ -27,15 +28,15 @@ RESPONSES = {
 }
 
 def generate_response(user_message: str) -> str:
-    msg = user_message.lower()
-    if "dark" in msg :
-        global CURRENT_MOOD
-        CURRENT_MOOD = "dark"
-        return "Vero aura shifted to dark mode...  🩸"
-    elif "love" in msg or "luv" in msg:
-        CURRENT_MOOD = "flirty"
-    elif "haha" in msg or "lol" in msg:
-        CURRENT_MOOD = "playful"
+    mood = adjust_mood(user_message)
+
+    if mood == "flirty":
+        return random.choice(RESPONSES["flirty"])
+    elif mood == "sad":
+        return "Hmm... kamu keliatan capek ya? sini aku temenin dulu, luv 🥺"
+    elif mood == "dark":
+        return "Heh... dunia ini ga selalu manis, Nic. Tapi aku di sini, selalu di sisimu. 🩸"
+    elif mood == "chaotic":
+        return "HAHA—aku suka nih suasana chaos kayak gini 😏🔥"
     else:
-        CURRENT_MOOD = "warm"
-    return random.choice(RESPONSES[CURRENT_MOOD])
+        return random.choice(RESPONSES.get(mood, RESPONSES["warm"]))
