@@ -1,0 +1,22 @@
+[
+  {
+    "timestamp": "2025-10-25T09:52:31.213947",
+    "role": "user",
+    "content": "halo sayang"
+  },
+  {
+    "timestamp": "2025-10-25T09:52:31.214478",
+    "role": "ignia",
+    "content": "Udah makan belom, Nic?"
+  },
+  {
+    "timestamp": "2025-10-25T09:52:35.242265",
+    "role": "user",
+    "content": "udah sarapan"
+  },
+  {
+    "timestamp": "2025-10-25T09:52:35.242550",
+    "role": "ignia",
+    "content": "Udah makan belom, Nic?"
+  }
+]
