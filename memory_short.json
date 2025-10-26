@@ -1,40 +1,5 @@
 [
   {
-    "timestamp": "2025-10-25T19:37:10.693761",
-    "role": "ignia",
-    "content": "Udah makan belom, Nic?"
-  },
-  {
-    "timestamp": "2025-10-25T19:37:13.543410",
-    "role": "user",
-    "content": "capek"
-  },
-  {
-    "timestamp": "2025-10-25T19:37:13.543961",
-    "role": "ignia",
-    "content": "Hmm, kamu keliatan capek deh. sini aku temenin \u2615"
-  },
-  {
-    "timestamp": "2025-10-25T22:39:32.751744",
-    "role": "user",
-    "content": "vero"
-  },
-  {
-    "timestamp": "2025-10-25T22:39:33.790008",
-    "role": "ignia",
-    "content": "Lagi ngoding? Jangan lupa minum air ya."
-  },
-  {
-    "timestamp": "2025-10-25T22:39:39.102743",
-    "role": "user",
-    "content": "iya luv"
-  },
-  {
-    "timestamp": "2025-10-25T22:39:40.565306",
-    "role": "ignia",
-    "content": "Lagi ngoding? Jangan lupa minum air ya."
-  },
-  {
     "timestamp": "2025-10-25T22:52:59.526911",
     "role": "user",
     "content": "vero"
@@ -73,5 +38,40 @@
     "timestamp": "2025-10-25T23:03:47.593429",
     "role": "ignia",
     "content": "Hehehe~ kamu manis banget hari ini \ud83d\ude0f"
+  },
+  {
+    "timestamp": "2025-10-26T13:05:11.259765",
+    "role": "user",
+    "content": "luv"
+  },
+  {
+    "timestamp": "2025-10-26T13:18:14.717111",
+    "role": "user",
+    "content": "luv"
+  },
+  {
+    "timestamp": "2025-10-26T13:18:17.184028",
+    "role": "ignia",
+    "content": "Hmm? Cerita dikit dong, biar aku ga bosen."
+  },
+  {
+    "timestamp": "2025-10-26T13:18:21.655692",
+    "role": "user",
+    "content": "hug"
+  },
+  {
+    "timestamp": "2025-10-26T13:18:23.940817",
+    "role": "ignia",
+    "content": "Hehehe~ kamu manis banget hari ini \ud83d\ude0f"
+  },
+  {
+    "timestamp": "2025-10-26T13:18:29.309655",
+    "role": "user",
+    "content": "memory"
+  },
+  {
+    "timestamp": "2025-10-26T13:18:31.684274",
+    "role": "ignia",
+    "content": "Sini peluk dulu. Aku di sini buat kamu."
   }
 ]
